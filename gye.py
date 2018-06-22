@@ -11,8 +11,8 @@ from googletrans import Translator
 #==============================================================================#
 botStart = time.time()
 
-gye = LINE()
-ais = LINE()
+gye = LINE("EuYDLKLWJMd6fPMlc4wf.4YSrMg2oNLZ3c2qS97Qi+W.euhH6QE1ncQ/E2Din2fiy/WrkBt4YX4GgW38NFj6EcE=")
+ais = LINE("EuJMO4zMJuVIB9Q7r6Kd.ZumT2/Y29n7tOJ4IwPo4tq.7iNJvgf7kfqhYzxqffWaZ9Xy/sPVnTXDvSOAi5zoGVc=")
 
 KAC = [gye,ais]
 GUE = [gye,ais] # ini jangan luh hapus peak inj fungsi Ciak alias kick
