@@ -54,7 +54,7 @@ botStart = time.time()
 #ke.log("Timeline Token : " + str(ke.tl.channelAccessToken))
 
 gye = LINE("EuYDLKLWJMd6fPMlc4wf.4YSrMg2oNLZ3c2qS97Qi+W.euhH6QE1ncQ/E2Din2fiy/WrkBt4YX4GgW38NFj6EcE=")
-ki = LINE("EuJMO4zMJuVIB9Q7r6Kd.ZumT2/Y29n7tOJ4IwPo4tq.7iNJvgf7kfqhYzxqffWaZ9Xy/sPVnTXDvSOAi5zoGVc=")
+ais = LINE("EuJMO4zMJuVIB9Q7r6Kd.ZumT2/Y29n7tOJ4IwPo4tq.7iNJvgf7kfqhYzxqffWaZ9Xy/sPVnTXDvSOAi5zoGVc=")
 kk = LINE("EufjpqADebzNQpbd6dEd.SPS+quoffhJbcv30K1vAdq.fILrF4NH6a+DGt2vwdX3nezm2rx6mbU+IjBd++1RgHQ=")
 kc = LINE("EuYHclxrzqW0XDSCiiw0.ZaBHUQRqncLKKv+uKgw/qa.VKgQeUjmWt79dLrKaLwJVzz8PCvzVj+FKBKI8Oezs/s=")
 ke = LINE("EuiBvYshQqZHJSzRAV3e.lVN3XpWByvHZ/lHSAQFaBG.b7z7iEocCtaW7H4Z8H4m/zTdzUxwBKKDMnliuhm91v8=")
