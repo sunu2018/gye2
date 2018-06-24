@@ -907,7 +907,7 @@ def gyeBot(op):
                         for ls in lists:
                             ret_ += "\n{}" + ls
                         gye.sendMessage(msg.to, str(ret_))
-                elif msg.text.lower().startswith("name "):
+                elif msg.text.lower().startswith("ดูชื่อ "):
                     if 'MENTION' in list(msg.contentMetadata.keys())!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -919,7 +919,7 @@ def gyeBot(op):
                         for ls in lists:
                             contact = gye.getContact(ls)
                             gye.sendMessage(msg.to, "[ Display Name ]\n" + contact.displayName)
-                elif msg.text.lower().startswith("bio "):
+                elif msg.text.lower().startswith("ดูตัส "):
                     if 'MENTION' in list(msg.contentMetadata.keys())!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -955,7 +955,7 @@ def gyeBot(op):
                         for ls in lists:
                             path = "http://dl.profile.line.naver.jp/" + line.getContact(ls).pictureStatus + "/vp"
                             gye.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("cover "):
+                elif msg.text.lower().startswith("ดูปก "):
                     if gye != None:
                         if 'MENTION' in list(msg.contentMetadata.keys())!= None:
                             names = re.findall(r'@(\w+)', text)
@@ -968,7 +968,7 @@ def gyeBot(op):
                             for ls in lists:
                                 path = gye.getProfileCoverURL(ls)
                                 gye.sendImageWithURL(msg.to, str(path))
-                elif msg.text.lower().startswith("copy "):
+                elif msg.text.lower().startswith("ดูหอย "):
                     if 'MENTION' in list(msg.contentMetadata.keys())!= None:
                         names = re.findall(r'@(\w+)', text)
                         mention = ast.literal_eval(msg.contentMetadata['MENTION'])
